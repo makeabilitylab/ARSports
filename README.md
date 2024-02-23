@@ -9,6 +9,9 @@ In this repo, you can figure out:
 
 ## Performance
 
+<p align="left">
+    <img src="demo/image_basketball.png" width=500px/>
+<p>
 
 ## Requirements
 
