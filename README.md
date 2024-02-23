@@ -1,5 +1,11 @@
 # ARSports
 
+In this repo, you can figure out:
+
+* place holder
+* Dataset
+* Finetuning
+* zed
 
 ## Performance
 
