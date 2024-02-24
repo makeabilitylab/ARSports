@@ -20,8 +20,8 @@ Inference on images:
 
 Inference on videos:
 <p align="left">
-    <img src="demo/test_lvb_l.gif" width=340px/>
-    <img src="demo/test_lvt_l.gif" width=300px/>
+    <img src="demo/test_lvb_l.gif" width=340px height=200px/>
+    <img src="demo/test_lvt_l.gif" width=300px height=200px/>
 </p>
 
 
