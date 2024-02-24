@@ -14,14 +14,31 @@ In this repo, you can figure out:
     <img src="demo/image_tennis.png" width=300px/>
 <p>
 
+
+
 ## Requirements
 * Python 3.8 and above
 * PyTorch preferably with CUDA enabled
 * CUDA 11.4 and above
+* place holder
 
 
 ## Dataset & Finetuning
 
-we p
+In this repo we present the first datasets featuring first-person point-of-view scenarios for basketball & tennis, collected and annotated by the project team. The basketball set contains 2430 images and the tennis set has 2982 images.
+
+Objects annotated in basketball scenarios include:
+1. Person
+2. Basketball
+3. Hoop
+4. Backboard
+
+Objects annotated in tennis scenarios include:
+1. Person
+2. Tennis Ball
+3. Net
+4. Racket
+
+For tutorial on fine-tuning RTMDet model with customized datasets, please refer to [this repo](https://github.com/makeabilitylab/mmdet-fine-tuning)
 
 ## Quick Start
