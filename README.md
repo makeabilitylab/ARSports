@@ -24,10 +24,10 @@ Inference on videos:
     <img src="demo/test_lvt_l.gif" width=340px height=200px/>
 </p>
 
-| Model     | Release Date | Max Length | System Prompt Enhancement | # of Pretrained Tokens | Minimum GPU Memory Usage of Finetuning (Q-Lora) | Minimum GPU Usage of Generating 2048 Tokens (Int4) | Tool Usage |
-|:----------|:------------:|:----------:|:-------------------------:|:----------------------:|:-----------------------------------------------:|:--------------------------------------------------:|:----------:|
-| RTMDet-l-Basketball |   23.11.30   |    32K     |             ✅             |          2.2T          |                      5.8GB                      |                       2.9GB                        |     ✅      |  
-| RTMDet-l-Tennis     |   23.08.03   |    32K     |             ❎             |          2.4T          |                     11.5GB                      |                       8.2GB                        |     ✅      | 
+| Model     |  loss_cls | loss_mask | loss_bbox | COCO/segm_mAP_50 | COCO/segm_mAP_75 | COCO/segm_mAP_s | COCO/segm_mAP_m | COCO/segm_mAP_l |
+|:----------|:------------:|:----------:|:-------------------------:|:----------------------:|:-------------------------:|:----------------:|:----------:|
+| RTMDet-l-Basketball |   0.0964   |  0.1491 | 0.1933 | 0.876 | 0.569  | 0.316 |     0.733     | 0.866 |
+| RTMDet-l-Tennis     |   0.0871   |  0.1755 | 0.2008 | 0.672 | 0.381  | 0.205 |     0.783     | 0.921 |
 
 
 ## Requirements
