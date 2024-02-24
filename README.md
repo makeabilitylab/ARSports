@@ -13,7 +13,7 @@ In this repo, you can figure out:
 In this project we present two RTMDet models fine-tuned specifically for instance segmentation tasks in real-time sports scenarios. Trained weights can be downloaded [here]().
 
 Inference on images:
-<p align="left">
+<p align="mid">
     <img src="demo/image_basketball.png" width=340px/>
     <img src="demo/image_tennis.png" width=340px/>
 </p>
