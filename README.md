@@ -20,7 +20,8 @@ Inference on videos:
 
 | Model     | loss_cls | loss_mask | loss_bbox | COCO/segm_mAP_50 | COCO/segm_mAP_75 | COCO/segm_mAP_s | COCO/segm_mAP_m | COCO/segm_mAP_l |
 |:----------|:------------:|:----------:|:-------------------------:|:----------------------:|:-----------------------------------------------:|:--------------------------------------------------:|:----------:|:----------:|
-| RTMDet-l-Basketball |   0.0964   |    0.1491     |             0.1933             |          0.876          |                      0.569                      |                       0.316                        |     0.733      |     0.866      |  
+| RTMDet-Ins_l-Basketball |   0.0964   |    0.1491     |             0.1933             |          0.876          |                      0.569                      |                       0.316                        |     0.733      |     0.866      |
+| RTMDet-Ins_l-Tennis |   0.0872   |    0.1755     |             0.2008             |          0.672          |                      0.381                      |                       0.205                        |     0.783      |     0.921      |   
 
 <p align="left">
     <img src="demo/radar_b.png" width=340px height=300px/>
