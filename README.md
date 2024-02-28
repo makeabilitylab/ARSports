@@ -4,7 +4,7 @@ Welcome to Makeability Lab's repository of ARSports, a prototype augmented reali
 
 ## Performance
 
-In this project we present two RTMDet models fine-tuned specifically for instance segmentation tasks in real-time sports scenarios. Trained weights can be downloaded [here]().
+In this project, we present two RTMDet models fine-tuned specifically for instance segmentation tasks in real-time sports scenarios. Trained weights can be downloaded [here]().
 
 Inference on images:
 <p align="left">
@@ -36,7 +36,7 @@ Inference on videos:
 
 ## Dataset & Finetuning
 
-In this repo we also present the first datasets featuring first-person point-of-view scenarios for basketball & tennis, collected and annotated by the project team. The basketball set contains 2430 images and the tennis set has 2982 images.
+In this repo, we also present the first dataset that features first-person point-of-view scenarios for basketball & tennis, collected and annotated by the project team. The basketball set contains 2,430 images and the tennis set has 2,982 images.
 
 Objects annotated in basketball scenarios include:
 1. Person
@@ -50,4 +50,5 @@ Objects annotated in tennis scenarios include:
 3. Net
 4. Racket
 
-For tutorial on fine-tuning RTMDet model with customized datasets, please refer to [this repo](https://github.com/makeabilitylab/mmdet-fine-tuning).
+
+For a tutorial on fine-tuning the RTMDet model with customized datasets, please refer to [this repo](https://github.com/makeabilitylab/mmdet-fine-tuning).
