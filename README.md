@@ -24,8 +24,8 @@ Inference on videos:
 | RTMDet-Ins_l-Tennis |   0.0872   |    0.1755     |             0.2008             |          0.672          |                      0.381                      |                       0.205                        |     0.783      |     0.921      |   
 
 <p align="left">
-    <img src="demo/radar_b.png" width=340px height=300px/>
-    <img src="demo/radar_t.png" width=340px height=300px/>
+    <img src="demo/radar_b.png" width=340px height=320px/>
+    <img src="demo/radar_t.png" width=340px height=320px/>
 </p>
 
 
