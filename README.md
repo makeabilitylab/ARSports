@@ -23,8 +23,8 @@ Inference on videos:
 | RTMDet-l-Basketball |   0.0964   |    0.1491     |             0.1933             |          0.876          |                      0.569                      |                       0.316                        |     0.733      |     0.866      |  
 
 <p align="left">
-    <img src="demo/radar_b.png" width=340px height=200px/>
-    <img src="demo/radar_t.png" width=340px height=200px/>
+    <img src="demo/radar_b.png" width=340px height=300px/>
+    <img src="demo/radar_t.png" width=340px height=300px/>
 </p>
 
 
