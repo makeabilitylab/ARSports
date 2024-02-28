@@ -1,12 +1,6 @@
 # ARSports
 
-
-In this repo, you can figure out:
-
-* place holder
-* Dataset
-* Finetuning
-* zed
+Welcome to Makeability Lab's repository of ARSports, a prototype augmented reality (AR) system for supporting low-vision sports featuring real-time object highlighting based on RTMDet_Ins model. 
 
 ## Performance
 
@@ -27,15 +21,17 @@ Inference on videos:
 | Model     | loss_cls | loss_mask | loss_bbox | COCO/segm_mAP_50 | COCO/segm_mAP_75 | COCO/segm_mAP_s | COCO/segm_mAP_m | COCO/segm_mAP_l |
 |:----------|:------------:|:----------:|:-------------------------:|:----------------------:|:-----------------------------------------------:|:--------------------------------------------------:|:----------:|:----------:|
 | RTMDet-l-Basketball |   0.0964   |    0.1491     |             0.1933             |          0.876          |                      0.569                      |                       0.316                        |     0.733      |     0.866      |  
-| RTMDet-l-Tennis   |   0.0871   |    0.1755     |             0.2008             |          0.672          |                     0.381                      |                       0.205                        |     0.783      |     0.921      |   
 
+<p align="left">
+    <img src="demo/radar_b.png" width=340px height=200px/>
+    <img src="demo/radar_t.png" width=340px height=200px/>
+</p>
 
 
 ## Requirements
 * Python 3.8 and above
-* PyTorch preferably with CUDA enabled
+* PyTorch with CUDA enabled
 * CUDA 11.4 and above
-* place holder
 
 
 ## Dataset & Finetuning
@@ -55,5 +51,3 @@ Objects annotated in tennis scenarios include:
 4. Racket
 
 For tutorial on fine-tuning RTMDet model with customized datasets, please refer to [this repo](https://github.com/makeabilitylab/mmdet-fine-tuning).
-
-## Quick Start
