@@ -4,7 +4,7 @@ Welcome to Makeability Lab's repository of ARSports, a prototype augmented reali
 
 ## Performance
 
-In this project, we present two RTMDet models fine-tuned specifically for instance segmentation tasks in real-time sports scenarios. Trained weights can be downloaded [here]().
+In this project, we present two RTMDet models fine-tuned specifically for instance segmentation tasks in real-time sports scenarios. Trained weights can be downloaded [here](https://drive.google.com/file/d/1R8NOdyd3fJj7GZ1pke6qy94cS28llVvo/view?usp=drive_link).
 
 Inference on images:
 <p align="left">
